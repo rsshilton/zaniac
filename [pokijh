@@ -1,0 +1,6 @@
+class Tree:
+    def __init__(self,leaves):
+        self.tree_leaves = leaves
+
+Aspen = Tree(2000)
+print(Aspen.tree_leaves)
